@@ -1,3 +1,4 @@
+//agregar evento click y función cambiar color a cada botón seleccionado por id
 document.getElementById('btn-1').addEventListener('click', cambiarColor);
 document.getElementById('btn-2').addEventListener('click', cambiarColor);
 document.getElementById('btn-3').addEventListener('click', cambiarColor);
@@ -5,6 +6,7 @@ document.getElementById('btn-4').addEventListener('click', cambiarColor);
 document.getElementById('btn-5').addEventListener('click', cambiarColor);
 document.getElementById('btn-6').addEventListener('click', cambiarColor);
 
+//Función que cambia el color
 function cambiarColor(event) {
 
     // variable que almacena el id del botón que está detectando el click
